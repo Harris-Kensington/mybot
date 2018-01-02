@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '?Test_Embed') {
+    if (message.content === 'test') {
         const embed = new Discord.RichEmbed()
         .setAuthor('Percy Bot', 'https://orig00.deviantart.net/9ce2/f/2014/201/1/7/profile_picture_by_alexthestooge-d7rk74y.png')
         .setColor(0x00AE86)
